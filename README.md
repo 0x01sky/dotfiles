@@ -10,7 +10,7 @@
 
 ## Requirements ❗:
 
-```starship, xautolock, xinput (to list your input devices that would be used for i3 config file) , rofi, polybar, zathura, nvim, >= 0.11, ghostty, JetBrainsMono and FiraCode Nerd Fonts```
+```starship, brightnessctl, xautolock, xinput (to list your input devices that would be used for i3 config file) , rofi, polybar, zathura, nvim, >= 0.11, ghostty, JetBrainsMono and FiraCode Nerd Fonts```
 
  - Link for starship: https://starship.rs/
  - Links for Nerd Fonts:
