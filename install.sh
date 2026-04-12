@@ -27,5 +27,5 @@ cp -r Wallpapers/. "$HOME/Pictures/Wallpapers/"
 mkdir -p "$CONFIG"
 cp starship.toml "$CONFIG/"
 
-echo "[+] Your Dotfiles are installed, enjoy :) !"
-echo "[+] Adding more stuffs soon :)"
+echo "[+] Your Dotfiles are installed, enjoy :-) !"
+echo "[+] Adding more stuffs soon :-)"
