@@ -16,21 +16,12 @@
      - https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FiraCode.zip
  - Link for NvChad: https://nvchad.com/docs/quickstart/install
 
-## Instructions 📑:
-  - Backup ⏲️:
-    
-  ```bash
-          cp ~/.config/i3/config ~/.config/i3/config.bak
-          cp ~/.config/polybar/config.ini ~/.config/polybar/config.ini.bak
-          cp ~/.config/ghostty/config.ghostty ~/.config/ghostty/config.ghostty.bak
-  ```
- - This is a genuine example and may also be applied to other config files !
+## Installation :
 
-- Installation ⬇️:
   - Manual
   ```bash
         git clone https://github.com/0x01sky/dotfiles && cd dotfiles
-        cp -r .config/i3 .config/rofi .config/polybar .config/ghostty .config/zathura .config/starship.toml .config/nvim .config/picom "$HOME/.config/"
+        cp -r .config/{i3,rofi,polybar,ghostty,zathura,picom} "$HOME/.config/"
   ```
   - Automated
    ```bash
