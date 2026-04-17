@@ -28,4 +28,6 @@
         wget https://raw.githubusercontent.com/0x01sky/dotfiles/main/setup/setup.py
         python3 setup.py
    ```
+   *Note* : if you wish to update the dotfiles using automated installation, you should keep the script !
+
 **Enjoy : - )**
