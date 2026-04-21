@@ -1,3 +1,5 @@
+# If there is any issue regarding the script make sure to report the issue on https://github.com/0x01sky/dotfiles
+
 import subprocess as sb
 from pathlib import Path
 import logging
@@ -5,6 +7,8 @@ import glob
 
 logging.basicConfig(level=logging.INFO)
 lg = logging.getLogger(__name__)
+
+# Used Calligraphy to generate the ascii art
 
 def Logo():
     print(r"""          
