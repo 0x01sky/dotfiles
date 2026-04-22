@@ -33,7 +33,7 @@ def Logo():
 Packages = [
     "picom", "polybar", "neovim", "zathura",
     "brightnessctl", "xinput", "starship",
-    "rofi", "fastfetch", "btop"
+    "rofi", "fastfetch", "btop", "flameshot"
 ]
 
 # Links for the nerd fonts and the dotfiles
