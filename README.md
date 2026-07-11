@@ -4,9 +4,9 @@
 
 ## Packages & Dependencies :
 
- - Packages like xinput are pre-installed in NixOS, also all of this packages and dependencies are available in nixpkgs.
+ - Packages like xinput are pre-installed in NixOS, also all of these packages and dependencies are available in nixpkgs.
 
-```picom, starship, xautolock, xinput (to list your input devices that would be used for i3 config file) , rofi, polybar, zathura, nvim, >= 0.11, ghostty, tmux, cava, btop, xfce4-power-manager (i used it to manage power button behaviors (recommended)), superfile, JetBrainsMono and FiraCode Nerd Fonts```
+```picom, starship, xautolock, xinput (to list your input devices that would be used for i3 config file) , rofi, polybar, zathura, nvim, >= 0.11, ghostty, tmux, cava, btop, superfile, JetBrainsMono and FiraCode Nerd Fonts```
  
  - Link for starship: https://starship.rs/
  - Links for Nerd Fonts:
@@ -18,8 +18,7 @@
 
 # Preview :
 
-![Preview](preview/preview.png)
-
+![Preview](preview/preview1.png)
 
 ## Directory Structure :
 
@@ -80,8 +79,6 @@ config
   ```
   - if you're using NixOS :
     
-    * add ```home-manager``` to your system packages or user packages in nix configuration:
-  
-    * for others, make sure to follow https://home-manager.dev/manual/ !
+    * add ```home-manager``` to your system packages or user packages in nix configuration.
         
 **Enjoy!**
