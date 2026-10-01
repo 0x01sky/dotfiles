@@ -2,6 +2,11 @@
 
 PS1='%n@%m %F{blue}%~%f $ '
 
+
+# Displaying the clock in the right prompt
+
+RPROMPT="[%F{blue}%*%F{reset}]"
+
 # Shell aliases
 
 ## nvim
@@ -30,7 +35,7 @@ command -v grep &>/dev/null && alias grep="grep --color=auto"
 
 # Evaluation for fzf in zsh for CTRL+R
 
-command -v fzf &>/dev/null && eval "$(fzf --zsh)"
+command -v fzf &>/dev/null && eval "$(fzf --zsh --history-size=1000)"
 
 
 # Shell Functions
@@ -44,6 +49,12 @@ if command -v nvim &>/dev/null; then
   export VISUAL=nvim
   export EDITOR=vim
 fi
+
+
+# PATHS to export
+
+PATH="$HOME/.local/bin:$PATH"
+export PATH
 
 # ZSH Completions
 
